@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Ground
+  - ScoreCanvasImage
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -43,6 +46,9 @@ TagManager:
     locked: 0
   - name: BackgroundLayer
     uniqueID: 1331027069
+    locked: 0
+  - name: MainBackgroundLayer
+    uniqueID: 176549589
     locked: 0
   m_RenderingLayers:
   - Default

@@ -2,15 +2,26 @@ using UnityEngine;
 
 public class ParallaxBacground : MonoBehaviour
 {
-    [SerializeField] private Transform _cam;
-    [SerializeField] private float _moveSpped;
+    [SerializeField] private Transform cam;        // Kamera referansý
+    [SerializeField] private float moveSpeed = 1f; // Parallax hýzý
+    [SerializeField] private float resetDistance = 18f; // Resetleme eþiði (arka plan geniþliði kadar)
+
+    private Vector3 startPosition;
+
+    private void Start()
+    {
+        startPosition = transform.position;
+    }
 
     private void Update()
     {
-        transform.Translate(-1 * _moveSpped * Time.deltaTime , 0f , 0f);
-        if(_cam.position.x >= transform.position.x + 18f)
+        // Arka planý sürekli sola kaydýr
+        transform.Translate(Vector3.left * moveSpeed * Time.deltaTime);
+
+        // Eðer kamera pozisyonu, bu arka planýn pozisyonunu reset mesafesi kadar geçtiyse:
+        if (cam.position.x >= transform.position.x + resetDistance)
         {
-            transform.position = new Vector2(_cam.position.x + 18f, transform.position.y);
+            transform.position = new Vector3(transform.position.x + resetDistance * 2f, transform.position.y, transform.position.z);
         }
     }
 }
