@@ -407,6 +407,7 @@ MonoBehaviour:
   playerOneJumpTrigger: isJumpingOne
   playerTwoAnimator: {fileID: 1868197812}
   playerTwoJumpTrigger: isJumpingTwo
+  jumpCooldown: 0.5
 --- !u!1 &305034640
 GameObject:
   m_ObjectHideFlags: 0
@@ -868,7 +869,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -1002,9 +1003,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectsToSpawn:
-  - prefab: {fileID: 6976506511070205295, guid: 5e4cb6b0c7fab6d4f96bca223f6531dd, type: 3}
-    topPositionOffset: {x: 0, y: 0, z: 0}
-    topRotationOffset: {x: 180, y: 180, z: 0}
+  - prefab: {fileID: 7709361082219609510, guid: e2385d99d44aea449a9e5c357bda0463, type: 3}
+    topPositionOffset: {x: 0, y: -0.5, z: 0}
+    topRotationOffset: {x: 180, y: 0, z: 0}
+    bottomPositionOffset: {x: 0, y: 0, z: 0}
+    bottomRotationOffset: {x: 0, y: 0, z: 0}
+    side: 0
+  - prefab: {fileID: 7709361082219609510, guid: 21c9eb34c2c6062448256ccf30e06488, type: 3}
+    topPositionOffset: {x: 0, y: -0.2, z: 0}
+    topRotationOffset: {x: 180, y: 0, z: 0}
     bottomPositionOffset: {x: 0, y: 0, z: 0}
     bottomRotationOffset: {x: 0, y: 0, z: 0}
     side: 0
@@ -1023,7 +1030,7 @@ Transform:
   m_GameObject: {fileID: 499904134}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13, y: 3.6, z: 0}
+  m_LocalPosition: {x: 13, y: 3.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1850,8 +1857,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   topCharacter: {fileID: 4266298051118739044}
   bottomCharacter: {fileID: 8252141167850975907}
-  jumpHeight: 2
-  jumpSpeed: 2
+  jumpHeight: 2.2
+  jumpSpeed: 1
   verticalMargin: 0.5
 --- !u!1 &1407332523
 GameObject:
@@ -1963,10 +1970,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectsToSpawn:
-  - prefab: {fileID: 6976506511070205295, guid: 5e4cb6b0c7fab6d4f96bca223f6531dd, type: 3}
+  - prefab: {fileID: 7709361082219609510, guid: e2385d99d44aea449a9e5c357bda0463, type: 3}
     topPositionOffset: {x: 0, y: 0, z: 0}
     topRotationOffset: {x: 0, y: 0, z: 0}
-    bottomPositionOffset: {x: 0, y: 0, z: 0}
+    bottomPositionOffset: {x: 0, y: 0.5, z: 0}
+    bottomRotationOffset: {x: 0, y: 0, z: 0}
+    side: 1
+  - prefab: {fileID: 7709361082219609510, guid: 21c9eb34c2c6062448256ccf30e06488, type: 3}
+    topPositionOffset: {x: 0, y: 0, z: 0}
+    topRotationOffset: {x: 0, y: 0, z: 0}
+    bottomPositionOffset: {x: 0, y: 0.2, z: 0}
     bottomRotationOffset: {x: 0, y: 0, z: 0}
     side: 1
   topSpawnPoint: {fileID: 1409708237}
@@ -1984,7 +1997,7 @@ Transform:
   m_GameObject: {fileID: 1409708235}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13, y: -3.6, z: 0}
+  m_LocalPosition: {x: 13, y: -3.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2934,7 +2947,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
