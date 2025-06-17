@@ -1015,6 +1015,54 @@ MonoBehaviour:
     bottomPositionOffset: {x: 0, y: 0, z: 0}
     bottomRotationOffset: {x: 0, y: 0, z: 0}
     side: 0
+  - prefab: {fileID: 683328542781708557, guid: 1adf409aef672d940a66e47670897895, type: 3}
+    topPositionOffset: {x: 0, y: -0.3, z: 0}
+    topRotationOffset: {x: 180, y: 0, z: 0}
+    bottomPositionOffset: {x: 0, y: 0, z: 0}
+    bottomRotationOffset: {x: 0, y: 0, z: 0}
+    side: 0
+  - prefab: {fileID: 7340402855462159929, guid: 8336b3b6d8e9ec340995b62c8530ab84, type: 3}
+    topPositionOffset: {x: 0, y: -0.1, z: 0}
+    topRotationOffset: {x: 180, y: 0, z: 0}
+    bottomPositionOffset: {x: 0, y: 0, z: 0}
+    bottomRotationOffset: {x: 0, y: 0, z: 0}
+    side: 0
+  - prefab: {fileID: 4141305679192303411, guid: 528cc5b069d1b1045844b5bd2e1b0419, type: 3}
+    topPositionOffset: {x: 0, y: -0.6, z: 0}
+    topRotationOffset: {x: 180, y: 0, z: 0}
+    bottomPositionOffset: {x: 0, y: 0, z: 0}
+    bottomRotationOffset: {x: 0, y: 0, z: 0}
+    side: 0
+  - prefab: {fileID: 6745094962496062356, guid: 3bab00d3392704246ba981d3c15ac5df, type: 3}
+    topPositionOffset: {x: 0, y: 0.01, z: 0}
+    topRotationOffset: {x: 180, y: -180, z: 0}
+    bottomPositionOffset: {x: 0, y: 0, z: 0}
+    bottomRotationOffset: {x: 0, y: 0, z: 0}
+    side: 0
+  - prefab: {fileID: 6791092484256969987, guid: 923a51218547780418fa351679b5bd30, type: 3}
+    topPositionOffset: {x: 0, y: -0.01, z: 0}
+    topRotationOffset: {x: 180, y: -180, z: 0}
+    bottomPositionOffset: {x: 0, y: 0, z: 0}
+    bottomRotationOffset: {x: 0, y: 0, z: 0}
+    side: 0
+  - prefab: {fileID: 1094169674380521289, guid: 8954a2f9a495ab949a4eb72a4b45de5d, type: 3}
+    topPositionOffset: {x: 0, y: -0.6, z: 0}
+    topRotationOffset: {x: 180, y: 0, z: 0}
+    bottomPositionOffset: {x: 0, y: 0, z: 0}
+    bottomRotationOffset: {x: 0, y: 0, z: 0}
+    side: 0
+  - prefab: {fileID: 750117999839812917, guid: 374dc02aa5b9080438ed529ac6672e88, type: 3}
+    topPositionOffset: {x: 0, y: -0.4, z: 0}
+    topRotationOffset: {x: 180, y: -180, z: 0}
+    bottomPositionOffset: {x: 0, y: 0, z: 0}
+    bottomRotationOffset: {x: 0, y: 0, z: 0}
+    side: 0
+  - prefab: {fileID: 385397226430512787, guid: 5f1e758e953941641928517221864b02, type: 3}
+    topPositionOffset: {x: 0, y: -0.2, z: 0}
+    topRotationOffset: {x: 180, y: -180, z: 0}
+    bottomPositionOffset: {x: 0, y: 0, z: 0}
+    bottomRotationOffset: {x: 0, y: 0, z: 0}
+    side: 0
   topSpawnPoint: {fileID: 499904136}
   bottomSpawnPoint: {fileID: 1409708237}
   minSpawnInterval: 1
@@ -1981,6 +2029,54 @@ MonoBehaviour:
     topRotationOffset: {x: 0, y: 0, z: 0}
     bottomPositionOffset: {x: 0, y: 0.2, z: 0}
     bottomRotationOffset: {x: 0, y: 0, z: 0}
+    side: 1
+  - prefab: {fileID: 683328542781708557, guid: 1adf409aef672d940a66e47670897895, type: 3}
+    topPositionOffset: {x: 0, y: 0, z: 0}
+    topRotationOffset: {x: 0, y: 0, z: 0}
+    bottomPositionOffset: {x: 0, y: 0.3, z: 0}
+    bottomRotationOffset: {x: 0, y: 0, z: 0}
+    side: 1
+  - prefab: {fileID: 7340402855462159929, guid: 8336b3b6d8e9ec340995b62c8530ab84, type: 3}
+    topPositionOffset: {x: 0, y: 0, z: 0}
+    topRotationOffset: {x: 0, y: 0, z: 0}
+    bottomPositionOffset: {x: 0, y: 0.1, z: 0}
+    bottomRotationOffset: {x: 0, y: 0, z: 0}
+    side: 1
+  - prefab: {fileID: 4141305679192303411, guid: 528cc5b069d1b1045844b5bd2e1b0419, type: 3}
+    topPositionOffset: {x: 0, y: 0, z: 0}
+    topRotationOffset: {x: 0, y: 0, z: 0}
+    bottomPositionOffset: {x: 0, y: 0.6, z: 0}
+    bottomRotationOffset: {x: 0, y: 0, z: 0}
+    side: 1
+  - prefab: {fileID: 6745094962496062356, guid: 3bab00d3392704246ba981d3c15ac5df, type: 3}
+    topPositionOffset: {x: 0, y: 0, z: 0}
+    topRotationOffset: {x: 0, y: 0, z: 0}
+    bottomPositionOffset: {x: 0, y: -0.01, z: 0}
+    bottomRotationOffset: {x: 0, y: -180, z: 0}
+    side: 1
+  - prefab: {fileID: 6791092484256969987, guid: 923a51218547780418fa351679b5bd30, type: 3}
+    topPositionOffset: {x: 0, y: 0, z: 0}
+    topRotationOffset: {x: 0, y: 0, z: 0}
+    bottomPositionOffset: {x: 0, y: 0.01, z: 0}
+    bottomRotationOffset: {x: 0, y: -180, z: 0}
+    side: 1
+  - prefab: {fileID: 1094169674380521289, guid: 8954a2f9a495ab949a4eb72a4b45de5d, type: 3}
+    topPositionOffset: {x: 0, y: 0, z: 0}
+    topRotationOffset: {x: 0, y: 0, z: 0}
+    bottomPositionOffset: {x: 0, y: 0.6, z: 0}
+    bottomRotationOffset: {x: 0, y: 0, z: 0}
+    side: 1
+  - prefab: {fileID: 750117999839812917, guid: 374dc02aa5b9080438ed529ac6672e88, type: 3}
+    topPositionOffset: {x: 0, y: 0, z: 0}
+    topRotationOffset: {x: 0, y: 0, z: 0}
+    bottomPositionOffset: {x: 0, y: 0.5, z: 0}
+    bottomRotationOffset: {x: 0, y: -180, z: 0}
+    side: 1
+  - prefab: {fileID: 385397226430512787, guid: 5f1e758e953941641928517221864b02, type: 3}
+    topPositionOffset: {x: 0, y: 0, z: 0}
+    topRotationOffset: {x: 0, y: 0, z: 0}
+    bottomPositionOffset: {x: 0, y: 0.2, z: 0}
+    bottomRotationOffset: {x: 0, y: -180, z: 0}
     side: 1
   topSpawnPoint: {fileID: 1409708237}
   bottomSpawnPoint: {fileID: 1409708237}
@@ -3556,6 +3652,7 @@ GameObject:
   - component: {fileID: 1868197812}
   - component: {fileID: 8267542305032125264}
   - component: {fileID: 8267542305032125265}
+  - component: {fileID: 8267542305032125266}
   m_Layer: 0
   m_Name: PlayetTwo
   m_TagString: Player
@@ -3668,6 +3765,18 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8267542305032125262}
   m_Enabled: 1
+--- !u!114 &8267542305032125266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8267542305032125262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1777b3b96d3d1644f92ac9953887a8ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8543126219882063189
 GameObject:
   m_ObjectHideFlags: 0
@@ -3684,6 +3793,7 @@ GameObject:
   - component: {fileID: 93360076}
   - component: {fileID: 8543126219882063190}
   - component: {fileID: 8543126219882063191}
+  - component: {fileID: 8543126219882063192}
   m_Layer: 0
   m_Name: PlayerOne
   m_TagString: Player
@@ -3796,6 +3906,18 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8543126219882063189}
   m_Enabled: 1
+--- !u!114 &8543126219882063192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8543126219882063189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1777b3b96d3d1644f92ac9953887a8ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
