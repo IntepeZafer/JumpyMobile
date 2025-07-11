@@ -50,5 +50,8 @@ TagManager:
   - name: MainBackgroundLayer
     uniqueID: 176549589
     locked: 0
+  - name: GameOverLayer
+    uniqueID: 1749656903
+    locked: 0
   m_RenderingLayers:
   - Default
