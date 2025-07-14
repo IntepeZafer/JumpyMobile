@@ -2,9 +2,14 @@
 
 public class MoveObject : MonoBehaviour
 {
-    public float speed;
+    public Vector3 moveDirection = Vector3.left;
+
     void Update()
     {
-        transform.position += Vector3.left * speed * Time.deltaTime;
+        float speed = GameSpeedController.instance != null
+            ? GameSpeedController.instance.GetCurrentMoveSpeed()
+            : 5f;
+
+        transform.Translate(moveDirection * speed * Time.deltaTime);
     }
 }

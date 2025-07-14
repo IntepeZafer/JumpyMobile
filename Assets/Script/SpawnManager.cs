@@ -1,76 +1,96 @@
 using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
+
 public class SpawnManager : MonoBehaviour
 {
-    public enum SpawnSide
-    {
-        Top,
-        Bottom
-    }
+    public enum SpawnSide { Top, Bottom }
 
     [System.Serializable]
     public class SpawnableObject
     {
         public GameObject prefab;
-
-        // Üst karakter için ayarlar
         public Vector3 topPositionOffset;
         public Vector3 topRotationOffset;
-
-        // Alt karakter için ayarlar
         public Vector3 bottomPositionOffset;
         public Vector3 bottomRotationOffset;
-
         public SpawnSide side;
+
+        public bool flipX;
+        public bool flipY;
     }
 
-    [Header("Spawn Ayarlarý")]
     public SpawnableObject[] objectsToSpawn;
     public Transform topSpawnPoint;
     public Transform bottomSpawnPoint;
-    public float minSpawnInterval = 1.5f;
-    public float maxSpawnInterval = 3f;
-    public float objectLifetime = 5f;
-    public float moveSpeed = 2f;
 
-    private Coroutine spawnCoroutine;
+    [HideInInspector] public float minSpawnInterval = 3.5f;
+    [HideInInspector] public float maxSpawnInterval = 4.0f;
+    public float objectLifetime = 8f;
+
+    public Transform playerTransform;
 
     private void Start()
     {
-        spawnCoroutine = StartCoroutine(SpawnObjects());
+        StartCoroutine(SpawnObjects());
     }
 
     IEnumerator SpawnObjects()
     {
         while (true)
         {
-            float waitTime = Random.Range(minSpawnInterval, maxSpawnInterval);
-            yield return new WaitForSeconds(waitTime);
+            float randomTime = Random.Range(minSpawnInterval, maxSpawnInterval);
+            yield return new WaitForSeconds(randomTime);
 
-            if (objectsToSpawn.Length == 0) continue;
+            if (objectsToSpawn.Length == 0)
+                continue;
 
-            int index = Random.Range(0, objectsToSpawn.Length);
-            SpawnableObject selected = objectsToSpawn[index];
+            List<SpawnableObject> activePrefabs = new List<SpawnableObject>();
+            foreach (var obj in objectsToSpawn)
+            {
+                if (obj.prefab != null && obj.prefab.activeSelf)
+                    activePrefabs.Add(obj);
+            }
 
-            // Spawn noktasýný belirle
-            Transform baseSpawn = (selected.side == SpawnSide.Top) ? topSpawnPoint : bottomSpawnPoint;
+            if (activePrefabs.Count == 0)
+                continue;
 
-            // Konum ve rotasyonu belirle
-            Vector3 spawnPosition = baseSpawn.position +
+            int randomIndex = Random.Range(0, activePrefabs.Count);
+            SpawnableObject selected = activePrefabs[randomIndex];
+
+            Transform basePoint = selected.side == SpawnSide.Top ? topSpawnPoint : bottomSpawnPoint;
+            Vector3 spawnPos = basePoint.position +
                 (selected.side == SpawnSide.Top ? selected.topPositionOffset : selected.bottomPositionOffset);
-
-            Quaternion spawnRotation = Quaternion.Euler(
+            Quaternion spawnRot = Quaternion.Euler(
                 selected.side == SpawnSide.Top ? selected.topRotationOffset : selected.bottomRotationOffset
             );
 
-            // Obje oluþtur
-            GameObject newObj = Instantiate(selected.prefab, spawnPosition, spawnRotation);
+            GameObject spawnedObject = Instantiate(selected.prefab, spawnPos, spawnRot);
 
-            // Hareket ve yok olma
-            MoveObject moveScript = newObj.AddComponent<MoveObject>();
-            moveScript.speed = moveSpeed;
+            // SpriteRenderer üzerinden flipX / flipY uygula
+            SpriteRenderer sr = spawnedObject.GetComponent<SpriteRenderer>();
+            if (sr != null)
+            {
+                sr.flipX = selected.flipX;
+                sr.flipY = selected.flipY;
+            }
 
-            Destroy(newObj, objectLifetime);
+            // Hareket yönünü ayarla
+            if (!spawnedObject.TryGetComponent(out MoveObject moveScript))
+            {
+                moveScript = spawnedObject.AddComponent<MoveObject>();
+            }
+
+            if (playerTransform != null)
+            {
+                moveScript.moveDirection = (spawnPos.x > playerTransform.position.x) ? Vector3.left : Vector3.right;
+            }
+            else
+            {
+                moveScript.moveDirection = Vector3.left;
+            }
+
+            Destroy(spawnedObject, objectLifetime);
         }
     }
 }

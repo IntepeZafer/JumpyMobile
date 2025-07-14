@@ -212,7 +212,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sprOrcArcher3_0: -6041843563208488078
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

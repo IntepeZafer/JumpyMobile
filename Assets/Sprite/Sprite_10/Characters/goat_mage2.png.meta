@@ -212,7 +212,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      goat_mage2_0: 1062676926588762450
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

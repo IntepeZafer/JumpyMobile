@@ -212,7 +212,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      rogue2_0: 6391262407824994275
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

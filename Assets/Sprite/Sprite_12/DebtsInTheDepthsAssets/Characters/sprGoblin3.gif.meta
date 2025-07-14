@@ -212,7 +212,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sprGoblin3_0: -4507734551302889662
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

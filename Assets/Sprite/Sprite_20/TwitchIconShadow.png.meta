@@ -212,7 +212,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TwitchIconShadow_0: -7314281829334502071
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -287,7 +287,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sprBogslium1_0: 4467002097574185505
+      sprBogslium1_1: -7713236859264090401
+      sprBogslium1_2: 352413285289623257
+      sprBogslium1_3: 4338727310008388235
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

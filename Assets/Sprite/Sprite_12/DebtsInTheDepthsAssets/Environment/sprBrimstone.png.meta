@@ -262,7 +262,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sprBrimstone_0: -2423423641545948362
+      sprBrimstone_1: -5060852254580531347
+      sprBrimstone_2: -5044814121944208377
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -212,7 +212,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      reaper2_0: -8795322536960806271
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

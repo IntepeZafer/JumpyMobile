@@ -212,7 +212,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sprMagicBolt_0: -7191590243321321034
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

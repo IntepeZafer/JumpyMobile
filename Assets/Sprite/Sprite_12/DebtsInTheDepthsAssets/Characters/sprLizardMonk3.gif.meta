@@ -212,7 +212,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sprLizardMonk3_0: 176802019573721042
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
