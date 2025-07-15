@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f904643ffb3b4784b8b39f1636b0b585, type: 3}
+  m_Name: Step_23
+  m_EditorClassIdentifier: 
+  scoreThreshold: 9000
+  minMoveSpeed: 9.9
+  maxMoveSpeed: 9.9
+  minSpawnInterval: 0.6
+  maxSpawnInterval: 0.8

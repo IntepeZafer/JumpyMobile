@@ -4,8 +4,8 @@ using UnityEngine;
 public class SpeedStepData : ScriptableObject
 {
     public int scoreThreshold;
-    public float maxMoveSpeed;
     public float minMoveSpeed;
+    public float maxMoveSpeed;
     public float minSpawnInterval;
     public float maxSpawnInterval;
 }

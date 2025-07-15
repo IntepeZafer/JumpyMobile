@@ -38,7 +38,7 @@ public class GameSpeedController : MonoBehaviour
                 spawnManager.minSpawnInterval = selectedStep.minSpawnInterval;
                 spawnManager.maxSpawnInterval = selectedStep.maxSpawnInterval;
             }
-            Debug.LogWarning("No speed step found for the current score: " + currentScore);
+            Debug.Log($"✅ Hız güncellendi: {selectedStep.minMoveSpeed} - {selectedStep.maxMoveSpeed}, Puan: {selectedStep.scoreThreshold}+");
         }
     }
     public float GetCurrentMoveSpeed()
