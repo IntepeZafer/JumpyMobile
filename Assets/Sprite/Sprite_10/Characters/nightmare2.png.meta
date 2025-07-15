@@ -212,7 +212,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      nightmare2_0: -2159211441054267707
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

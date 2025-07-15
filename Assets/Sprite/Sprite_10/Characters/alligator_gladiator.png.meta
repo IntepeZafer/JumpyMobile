@@ -212,7 +212,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      alligator_gladiator_0: 10006634900840745
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

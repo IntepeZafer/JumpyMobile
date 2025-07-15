@@ -212,7 +212,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      scepter_4_0: -1401752248536204009
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

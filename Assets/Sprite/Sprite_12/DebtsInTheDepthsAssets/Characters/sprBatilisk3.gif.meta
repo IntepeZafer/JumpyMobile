@@ -212,7 +212,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sprBatilisk3_0: 2646466028480232831
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

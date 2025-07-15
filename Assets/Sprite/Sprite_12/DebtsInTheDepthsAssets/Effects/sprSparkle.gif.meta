@@ -212,7 +212,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sprSparkle_0: -2628780890585215864
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

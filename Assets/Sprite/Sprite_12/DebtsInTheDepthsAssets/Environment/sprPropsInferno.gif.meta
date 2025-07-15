@@ -212,7 +212,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sprPropsInferno_0: 2399004639967341322
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -387,7 +387,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_enemy_mud_strip8_0: 4654752230808865768
+      spr_enemy_mud_strip8_1: 3838639233763166747
+      spr_enemy_mud_strip8_2: 1199987830920113235
+      spr_enemy_mud_strip8_3: 5604967759666848303
+      spr_enemy_mud_strip8_4: -1951151154280594261
+      spr_enemy_mud_strip8_5: -7034577283839300845
+      spr_enemy_mud_strip8_6: -5759283212567099358
+      spr_enemy_mud_strip8_7: 2784867869810967964
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

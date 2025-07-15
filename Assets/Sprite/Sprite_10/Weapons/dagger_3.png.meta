@@ -212,7 +212,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      dagger_3_0: -3308896140689126226
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

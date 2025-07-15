@@ -362,7 +362,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sprPropsCatacombs_0: 3811550679608802001
+      sprPropsCatacombs_1: 1037803354555562035
+      sprPropsCatacombs_2: 3608345306023696627
+      sprPropsCatacombs_3: 4089280550985327741
+      sprPropsCatacombs_4: -7324131161723753719
+      sprPropsCatacombs_5: 4583006631543509466
+      sprPropsCatacombs_6: -4868460573108140558
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
