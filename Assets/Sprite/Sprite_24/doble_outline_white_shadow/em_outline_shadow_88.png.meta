@@ -212,7 +212,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      em_outline_shadow_88_0: -4819621183053689582
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

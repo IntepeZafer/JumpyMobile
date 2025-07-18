@@ -212,7 +212,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bubble_white_03_36_0: -5992480686700140764
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
