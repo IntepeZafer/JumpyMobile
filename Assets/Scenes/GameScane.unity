@@ -153,7 +153,7 @@ CapsuleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8543126219882063189}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
@@ -995,8 +995,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsToSpawn:
   - prefab: {fileID: 7709361082219609510, guid: e2385d99d44aea449a9e5c357bda0463, type: 3}
-    isActive: 1
-    topPositionOffset: {x: 0, y: -0.5, z: 0}
+    isActive: 0
+    topPositionOffset: {x: 0, y: -0.6, z: 0}
     topRotationOffset: {x: 180, y: 0, z: 0}
     bottomPositionOffset: {x: 0, y: 0, z: 0}
     bottomRotationOffset: {x: 0, y: 0, z: 0}
@@ -1004,7 +1004,7 @@ MonoBehaviour:
     flipY: 0
     side: 0
   - prefab: {fileID: 7709361082219609510, guid: 21c9eb34c2c6062448256ccf30e06488, type: 3}
-    isActive: 1
+    isActive: 0
     topPositionOffset: {x: 0, y: -0.2, z: 0}
     topRotationOffset: {x: 180, y: 0, z: 0}
     bottomPositionOffset: {x: 0, y: 0, z: 0}
@@ -1013,7 +1013,7 @@ MonoBehaviour:
     flipY: 0
     side: 0
   - prefab: {fileID: 683328542781708557, guid: 1adf409aef672d940a66e47670897895, type: 3}
-    isActive: 1
+    isActive: 0
     topPositionOffset: {x: 0, y: -0.3, z: 0}
     topRotationOffset: {x: 180, y: 0, z: 0}
     bottomPositionOffset: {x: 0, y: 0, z: 0}
@@ -1022,8 +1022,8 @@ MonoBehaviour:
     flipY: 0
     side: 0
   - prefab: {fileID: 7340402855462159929, guid: 8336b3b6d8e9ec340995b62c8530ab84, type: 3}
-    isActive: 1
-    topPositionOffset: {x: 0, y: -0.1, z: 0}
+    isActive: 0
+    topPositionOffset: {x: 0, y: 0, z: 0}
     topRotationOffset: {x: 180, y: 0, z: 0}
     bottomPositionOffset: {x: 0, y: 0, z: 0}
     bottomRotationOffset: {x: 0, y: 0, z: 0}
@@ -1031,8 +1031,8 @@ MonoBehaviour:
     flipY: 0
     side: 0
   - prefab: {fileID: 4141305679192303411, guid: 528cc5b069d1b1045844b5bd2e1b0419, type: 3}
-    isActive: 1
-    topPositionOffset: {x: 0, y: -0.6, z: 0}
+    isActive: 0
+    topPositionOffset: {x: 0, y: -0.3, z: 0}
     topRotationOffset: {x: 180, y: 0, z: 0}
     bottomPositionOffset: {x: 0, y: 0, z: 0}
     bottomRotationOffset: {x: 0, y: 0, z: 0}
@@ -1040,26 +1040,26 @@ MonoBehaviour:
     flipY: 0
     side: 0
   - prefab: {fileID: 6745094962496062356, guid: 3bab00d3392704246ba981d3c15ac5df, type: 3}
-    isActive: 1
+    isActive: 0
     topPositionOffset: {x: 0, y: 0.01, z: 0}
-    topRotationOffset: {x: 180, y: -180, z: 0}
+    topRotationOffset: {x: 180, y: 0, z: 0}
     bottomPositionOffset: {x: 0, y: 0, z: 0}
     bottomRotationOffset: {x: 0, y: 0, z: 0}
     flipX: 0
     flipY: 0
     side: 0
   - prefab: {fileID: 6791092484256969987, guid: 923a51218547780418fa351679b5bd30, type: 3}
-    isActive: 1
+    isActive: 0
     topPositionOffset: {x: 0, y: -0.01, z: 0}
-    topRotationOffset: {x: 180, y: -180, z: 0}
+    topRotationOffset: {x: 180, y: 0, z: 0}
     bottomPositionOffset: {x: 0, y: 0, z: 0}
     bottomRotationOffset: {x: 0, y: 0, z: 0}
-    flipX: 0
+    flipX: 1
     flipY: 0
     side: 0
   - prefab: {fileID: 1094169674380521289, guid: 8954a2f9a495ab949a4eb72a4b45de5d, type: 3}
-    isActive: 1
-    topPositionOffset: {x: 0, y: -0.6, z: 0}
+    isActive: 0
+    topPositionOffset: {x: 0, y: -0.3, z: 0}
     topRotationOffset: {x: 180, y: 0, z: 0}
     bottomPositionOffset: {x: 0, y: 0, z: 0}
     bottomRotationOffset: {x: 0, y: 0, z: 0}
@@ -1067,21 +1067,21 @@ MonoBehaviour:
     flipY: 0
     side: 0
   - prefab: {fileID: 750117999839812917, guid: 374dc02aa5b9080438ed529ac6672e88, type: 3}
-    isActive: 1
+    isActive: 0
     topPositionOffset: {x: 0, y: -0.4, z: 0}
-    topRotationOffset: {x: 180, y: -180, z: 0}
+    topRotationOffset: {x: 180, y: 0, z: 0}
     bottomPositionOffset: {x: 0, y: 0, z: 0}
     bottomRotationOffset: {x: 0, y: 0, z: 0}
-    flipX: 0
+    flipX: 1
     flipY: 0
     side: 0
   - prefab: {fileID: 385397226430512787, guid: 5f1e758e953941641928517221864b02, type: 3}
     isActive: 1
     topPositionOffset: {x: 0, y: -0.2, z: 0}
-    topRotationOffset: {x: 180, y: -180, z: 0}
+    topRotationOffset: {x: 180, y: 0, z: 0}
     bottomPositionOffset: {x: 0, y: 0, z: 0}
     bottomRotationOffset: {x: 0, y: 0, z: 0}
-    flipX: 0
+    flipX: 1
     flipY: 0
     side: 0
   topSpawnPoint: {fileID: 499904136}
@@ -1132,6 +1132,50 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!1 &502495757
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 502495759}
+  - component: {fileID: 502495758}
+  m_Layer: 0
+  m_Name: ScoreManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &502495758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 502495757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b38f546453704a41927224b1baae3d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &502495759
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 502495757}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.2493231, y: 0.56560767, z: -0.052237675}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &589648551
 GameObject:
   m_ObjectHideFlags: 0
@@ -2040,7 +2084,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsToSpawn:
   - prefab: {fileID: 7709361082219609510, guid: e2385d99d44aea449a9e5c357bda0463, type: 3}
-    isActive: 1
+    isActive: 0
     topPositionOffset: {x: 0, y: 0, z: 0}
     topRotationOffset: {x: 0, y: 0, z: 0}
     bottomPositionOffset: {x: 0, y: 0.5, z: 0}
@@ -2070,7 +2114,7 @@ MonoBehaviour:
     isActive: 0
     topPositionOffset: {x: 0, y: 0, z: 0}
     topRotationOffset: {x: 0, y: 0, z: 0}
-    bottomPositionOffset: {x: 0, y: 0.1, z: 0}
+    bottomPositionOffset: {x: 0, y: 0, z: 0}
     bottomRotationOffset: {x: 0, y: 0, z: 0}
     flipX: 0
     flipY: 0
@@ -2079,7 +2123,7 @@ MonoBehaviour:
     isActive: 0
     topPositionOffset: {x: 0, y: 0, z: 0}
     topRotationOffset: {x: 0, y: 0, z: 0}
-    bottomPositionOffset: {x: 0, y: 0.6, z: 0}
+    bottomPositionOffset: {x: 0, y: 0.3, z: 0}
     bottomRotationOffset: {x: 0, y: 0, z: 0}
     flipX: 0
     flipY: 0
@@ -2089,7 +2133,7 @@ MonoBehaviour:
     topPositionOffset: {x: 0, y: 0, z: 0}
     topRotationOffset: {x: 0, y: 0, z: 0}
     bottomPositionOffset: {x: 0, y: -0.01, z: 0}
-    bottomRotationOffset: {x: 0, y: -180, z: 0}
+    bottomRotationOffset: {x: 0, y: 0, z: 0}
     flipX: 0
     flipY: 0
     side: 1
@@ -2097,9 +2141,9 @@ MonoBehaviour:
     isActive: 0
     topPositionOffset: {x: 0, y: 0, z: 0}
     topRotationOffset: {x: 0, y: 0, z: 0}
-    bottomPositionOffset: {x: 0, y: 0.01, z: 0}
-    bottomRotationOffset: {x: 0, y: -180, z: 0}
-    flipX: 0
+    bottomPositionOffset: {x: 0, y: 0.3, z: 0}
+    bottomRotationOffset: {x: 0, y: 0, z: 0}
+    flipX: 1
     flipY: 0
     side: 1
   - prefab: {fileID: 1094169674380521289, guid: 8954a2f9a495ab949a4eb72a4b45de5d, type: 3}
@@ -2116,17 +2160,17 @@ MonoBehaviour:
     topPositionOffset: {x: 0, y: 0, z: 0}
     topRotationOffset: {x: 0, y: 0, z: 0}
     bottomPositionOffset: {x: 0, y: 0.5, z: 0}
-    bottomRotationOffset: {x: 0, y: -180, z: 0}
-    flipX: 0
+    bottomRotationOffset: {x: 0, y: 0, z: 0}
+    flipX: 1
     flipY: 0
     side: 1
   - prefab: {fileID: 385397226430512787, guid: 5f1e758e953941641928517221864b02, type: 3}
-    isActive: 0
+    isActive: 1
     topPositionOffset: {x: 0, y: 0, z: 0}
     topRotationOffset: {x: 0, y: 0, z: 0}
     bottomPositionOffset: {x: 0, y: 0.2, z: 0}
-    bottomRotationOffset: {x: 0, y: -180, z: 0}
-    flipX: 0
+    bottomRotationOffset: {x: 0, y: 0, z: 0}
+    flipX: 1
     flipY: 0
     side: 1
   topSpawnPoint: {fileID: 1409708237}
@@ -3753,7 +3797,7 @@ GameObject:
   - component: {fileID: 8267542305032125266}
   - component: {fileID: 8267542305032125267}
   m_Layer: 0
-  m_Name: PlayetTwo
+  m_Name: PlayerTwo
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3914,13 +3958,14 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.06, y: 0.14999999}
-      - {x: -0.099999994, y: 0.12}
-      - {x: -0.11, y: 0.049999997}
-      - {x: -0.11, y: -0.14999999}
-      - {x: 0.11, y: -0.14999999}
-      - {x: 0.11, y: 0.13}
-      - {x: 0.089999996, y: 0.14999999}
+    - - {x: 0.011395667, y: 0.1490084}
+      - {x: -0.034553975, y: 0.12}
+      - {x: -0.07331058, y: 0.0658657}
+      - {x: -0.10206714, y: -0.13314268}
+      - {x: 0.08719304, y: -0.1490084}
+      - {x: 0.096815, y: 0.0035212522}
+      - {x: 0.0792602, y: 0.12206715}
+      - {x: 0.05033574, y: 0.14801678}
   m_UseDelaunayMesh: 0
 --- !u!1 &8543126219882063189
 GameObject:
@@ -3938,13 +3983,14 @@ GameObject:
   - component: {fileID: 93360076}
   - component: {fileID: 8543126219882063190}
   - component: {fileID: 8543126219882063192}
+  - component: {fileID: 8543126219882063193}
   m_Layer: 0
   m_Name: PlayerOne
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!82 &8543126219882063190
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4054,6 +4100,60 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1777b3b96d3d1644f92ac9953887a8ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!60 &8543126219882063193
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8543126219882063189}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.24, y: 0.29}
+    newSize: {x: 0.24, y: 0.29}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.051327344, y: 0.13905036}
+      - {x: -0.013394505, y: 0.14301679}
+      - {x: -0.08727697, y: 0.018058756}
+      - {x: -0.11603357, y: -0.13111751}
+      - {x: 0.12, y: -0.145}
+      - {x: 0.07934412, y: 0.06822662}
+      - {x: 0.06628537, y: 0.11516786}
+  m_UseDelaunayMesh: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -4070,3 +4170,4 @@ SceneRoots:
   - {fileID: 1396360723}
   - {fileID: 299980683}
   - {fileID: 1545425890}
+  - {fileID: 502495759}

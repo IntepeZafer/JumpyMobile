@@ -11,13 +11,16 @@ public class ObstacleTrigger : MonoBehaviour
         {
             Vector3 screenPos = Camera.main.WorldToScreenPoint(transform.position);
             effectSpawner.ShowEffect(screenPos, score);
-
+            if (ScoreManager.Instance != null)
+            {
+                ScoreManager.Instance.AddScore(score);
+            }
             if (GameSpeedController.instance != null)
             {
                 GameSpeedController.instance.UpdateSpeedByScore(score);
             }
-
             Destroy(gameObject);
         }
+
     }
 }

@@ -10,8 +10,4 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("GameScane");
     }
-    public void HomeGame()
-    {
-        SceneManager.LoadScene("MenuScane");
-    }
 }
