@@ -9,5 +9,6 @@ public class MainMenu : MonoBehaviour
     public void RestartGame()
     {
         SceneManager.LoadScene("GameScane");
+        ScoreManager.Instance.ResetScore();
     }
 }

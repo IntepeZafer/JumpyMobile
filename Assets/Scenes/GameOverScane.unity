@@ -998,6 +998,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22b0a72b60dd6c34e9ca179cf2f755d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bannerAdUnitId: ca-app-pub-3940256099942544/6300978111
+  interstitialAdUnitId: ca-app-pub-3940256099942544/1033173712
+  nextSceneName: GameOverScane
+  interstitialChance: 25
+  bannerChance: 50
+  minDeathsBeforeAd: 2
+  minAdInterval: 90
 --- !u!4 &1669998619
 Transform:
   m_ObjectHideFlags: 0

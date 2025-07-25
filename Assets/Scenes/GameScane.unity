@@ -995,7 +995,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsToSpawn:
   - prefab: {fileID: 7709361082219609510, guid: e2385d99d44aea449a9e5c357bda0463, type: 3}
-    isActive: 0
+    isActive: 1
     topPositionOffset: {x: 0, y: -0.6, z: 0}
     topRotationOffset: {x: 180, y: 0, z: 0}
     bottomPositionOffset: {x: 0, y: 0, z: 0}
@@ -1004,7 +1004,7 @@ MonoBehaviour:
     flipY: 0
     side: 0
   - prefab: {fileID: 7709361082219609510, guid: 21c9eb34c2c6062448256ccf30e06488, type: 3}
-    isActive: 0
+    isActive: 1
     topPositionOffset: {x: 0, y: -0.2, z: 0}
     topRotationOffset: {x: 180, y: 0, z: 0}
     bottomPositionOffset: {x: 0, y: 0, z: 0}
@@ -1013,7 +1013,7 @@ MonoBehaviour:
     flipY: 0
     side: 0
   - prefab: {fileID: 683328542781708557, guid: 1adf409aef672d940a66e47670897895, type: 3}
-    isActive: 0
+    isActive: 1
     topPositionOffset: {x: 0, y: -0.3, z: 0}
     topRotationOffset: {x: 180, y: 0, z: 0}
     bottomPositionOffset: {x: 0, y: 0, z: 0}
@@ -1022,7 +1022,7 @@ MonoBehaviour:
     flipY: 0
     side: 0
   - prefab: {fileID: 7340402855462159929, guid: 8336b3b6d8e9ec340995b62c8530ab84, type: 3}
-    isActive: 0
+    isActive: 1
     topPositionOffset: {x: 0, y: 0, z: 0}
     topRotationOffset: {x: 180, y: 0, z: 0}
     bottomPositionOffset: {x: 0, y: 0, z: 0}
@@ -1031,7 +1031,7 @@ MonoBehaviour:
     flipY: 0
     side: 0
   - prefab: {fileID: 4141305679192303411, guid: 528cc5b069d1b1045844b5bd2e1b0419, type: 3}
-    isActive: 0
+    isActive: 1
     topPositionOffset: {x: 0, y: -0.3, z: 0}
     topRotationOffset: {x: 180, y: 0, z: 0}
     bottomPositionOffset: {x: 0, y: 0, z: 0}
@@ -1040,17 +1040,17 @@ MonoBehaviour:
     flipY: 0
     side: 0
   - prefab: {fileID: 6745094962496062356, guid: 3bab00d3392704246ba981d3c15ac5df, type: 3}
-    isActive: 0
+    isActive: 1
     topPositionOffset: {x: 0, y: 0.01, z: 0}
     topRotationOffset: {x: 180, y: 0, z: 0}
     bottomPositionOffset: {x: 0, y: 0, z: 0}
     bottomRotationOffset: {x: 0, y: 0, z: 0}
-    flipX: 0
+    flipX: 1
     flipY: 0
     side: 0
   - prefab: {fileID: 6791092484256969987, guid: 923a51218547780418fa351679b5bd30, type: 3}
-    isActive: 0
-    topPositionOffset: {x: 0, y: -0.01, z: 0}
+    isActive: 1
+    topPositionOffset: {x: 0, y: -0.1, z: 0}
     topRotationOffset: {x: 180, y: 0, z: 0}
     bottomPositionOffset: {x: 0, y: 0, z: 0}
     bottomRotationOffset: {x: 0, y: 0, z: 0}
@@ -1058,8 +1058,8 @@ MonoBehaviour:
     flipY: 0
     side: 0
   - prefab: {fileID: 1094169674380521289, guid: 8954a2f9a495ab949a4eb72a4b45de5d, type: 3}
-    isActive: 0
-    topPositionOffset: {x: 0, y: -0.3, z: 0}
+    isActive: 1
+    topPositionOffset: {x: 0, y: -0.1, z: 0}
     topRotationOffset: {x: 180, y: 0, z: 0}
     bottomPositionOffset: {x: 0, y: 0, z: 0}
     bottomRotationOffset: {x: 0, y: 0, z: 0}
@@ -1067,7 +1067,7 @@ MonoBehaviour:
     flipY: 0
     side: 0
   - prefab: {fileID: 750117999839812917, guid: 374dc02aa5b9080438ed529ac6672e88, type: 3}
-    isActive: 0
+    isActive: 1
     topPositionOffset: {x: 0, y: -0.4, z: 0}
     topRotationOffset: {x: 180, y: 0, z: 0}
     bottomPositionOffset: {x: 0, y: 0, z: 0}
@@ -2084,7 +2084,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsToSpawn:
   - prefab: {fileID: 7709361082219609510, guid: e2385d99d44aea449a9e5c357bda0463, type: 3}
-    isActive: 0
+    isActive: 1
     topPositionOffset: {x: 0, y: 0, z: 0}
     topRotationOffset: {x: 0, y: 0, z: 0}
     bottomPositionOffset: {x: 0, y: 0.5, z: 0}
@@ -2093,7 +2093,7 @@ MonoBehaviour:
     flipY: 0
     side: 1
   - prefab: {fileID: 7709361082219609510, guid: 21c9eb34c2c6062448256ccf30e06488, type: 3}
-    isActive: 0
+    isActive: 1
     topPositionOffset: {x: 0, y: 0, z: 0}
     topRotationOffset: {x: 0, y: 0, z: 0}
     bottomPositionOffset: {x: 0, y: 0.2, z: 0}
@@ -2102,7 +2102,7 @@ MonoBehaviour:
     flipY: 0
     side: 1
   - prefab: {fileID: 683328542781708557, guid: 1adf409aef672d940a66e47670897895, type: 3}
-    isActive: 0
+    isActive: 1
     topPositionOffset: {x: 0, y: 0, z: 0}
     topRotationOffset: {x: 0, y: 0, z: 0}
     bottomPositionOffset: {x: 0, y: 0.3, z: 0}
@@ -2111,7 +2111,7 @@ MonoBehaviour:
     flipY: 0
     side: 1
   - prefab: {fileID: 7340402855462159929, guid: 8336b3b6d8e9ec340995b62c8530ab84, type: 3}
-    isActive: 0
+    isActive: 1
     topPositionOffset: {x: 0, y: 0, z: 0}
     topRotationOffset: {x: 0, y: 0, z: 0}
     bottomPositionOffset: {x: 0, y: 0, z: 0}
@@ -2120,7 +2120,7 @@ MonoBehaviour:
     flipY: 0
     side: 1
   - prefab: {fileID: 4141305679192303411, guid: 528cc5b069d1b1045844b5bd2e1b0419, type: 3}
-    isActive: 0
+    isActive: 1
     topPositionOffset: {x: 0, y: 0, z: 0}
     topRotationOffset: {x: 0, y: 0, z: 0}
     bottomPositionOffset: {x: 0, y: 0.3, z: 0}
@@ -2129,34 +2129,34 @@ MonoBehaviour:
     flipY: 0
     side: 1
   - prefab: {fileID: 6745094962496062356, guid: 3bab00d3392704246ba981d3c15ac5df, type: 3}
-    isActive: 0
+    isActive: 1
     topPositionOffset: {x: 0, y: 0, z: 0}
     topRotationOffset: {x: 0, y: 0, z: 0}
     bottomPositionOffset: {x: 0, y: -0.01, z: 0}
     bottomRotationOffset: {x: 0, y: 0, z: 0}
-    flipX: 0
+    flipX: 1
     flipY: 0
     side: 1
   - prefab: {fileID: 6791092484256969987, guid: 923a51218547780418fa351679b5bd30, type: 3}
-    isActive: 0
+    isActive: 1
     topPositionOffset: {x: 0, y: 0, z: 0}
     topRotationOffset: {x: 0, y: 0, z: 0}
-    bottomPositionOffset: {x: 0, y: 0.3, z: 0}
+    bottomPositionOffset: {x: 0, y: 0.1, z: 0}
     bottomRotationOffset: {x: 0, y: 0, z: 0}
     flipX: 1
     flipY: 0
     side: 1
   - prefab: {fileID: 1094169674380521289, guid: 8954a2f9a495ab949a4eb72a4b45de5d, type: 3}
-    isActive: 0
+    isActive: 1
     topPositionOffset: {x: 0, y: 0, z: 0}
     topRotationOffset: {x: 0, y: 0, z: 0}
-    bottomPositionOffset: {x: 0, y: 0.6, z: 0}
+    bottomPositionOffset: {x: 0, y: 0.1, z: 0}
     bottomRotationOffset: {x: 0, y: 0, z: 0}
     flipX: 0
     flipY: 0
     side: 1
   - prefab: {fileID: 750117999839812917, guid: 374dc02aa5b9080438ed529ac6672e88, type: 3}
-    isActive: 0
+    isActive: 1
     topPositionOffset: {x: 0, y: 0, z: 0}
     topRotationOffset: {x: 0, y: 0, z: 0}
     bottomPositionOffset: {x: 0, y: 0.5, z: 0}

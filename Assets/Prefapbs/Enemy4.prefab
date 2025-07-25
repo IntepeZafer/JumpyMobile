@@ -108,7 +108,7 @@ Transform:
   m_GameObject: {fileID: 1950461756823227383}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.062, y: 0.429, z: 0}
+  m_LocalPosition: {x: 0.062, y: 0.382, z: 0}
   m_LocalScale: {x: 1, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -164,7 +164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   effectSpawner: {fileID: 2527861092133680234}
-  score: 20
+  score: 8
 --- !u!1 &7340402855462159929
 GameObject:
   m_ObjectHideFlags: 0
