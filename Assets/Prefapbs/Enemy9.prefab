@@ -288,7 +288,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   effectSpawner: {fileID: 8827933390482697175}
-  score: 45
+  score: 18
 --- !u!1 &2672393420888622294
 GameObject:
   m_ObjectHideFlags: 0

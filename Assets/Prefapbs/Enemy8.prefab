@@ -360,4 +360,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   effectSpawner: {fileID: 4426717354339731094}
-  score: 40
+  score: 16
